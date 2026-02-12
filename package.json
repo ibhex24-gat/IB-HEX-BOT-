@@ -1,12 +1,13 @@
 {
-  "name": "ib-hex-bot",
+  "name": "ib-hex-qr",
   "version": "1.0",
-  "main": "index.js",
+  "main": "qr-server.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node qr-server.js"
   },
   "dependencies": {
+    "express": "^4.18.2",
     "@whiskeysockets/baileys": "^6.7.6",
-    "qrcode-terminal": "^0.12.0"
+    "qrcode": "^1.5.3"
   }
 }
