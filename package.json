@@ -6,8 +6,11 @@
     "start": "node qr-server.js"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "@whiskeysockets/baileys": "^6.7.6",
-    "qrcode": "^1.5.3"
+    "@whiskeysockets/baileys": "6.7.6",
+    "express": "4.18.2",
+    "qrcode": "1.5.3"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
